@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(108, 108, 219);
+    font: 22px 'Roboto';
+}
+
+header {
+    text-align: center;
+    color: #FFF;
+}
+
+#content {
+    width: 300px;
+    height: 410px;
+    margin: auto;
+    padding: 20px;
+ 
+    background-color: rgba(255, 255, 255, 0.637);
+    border-radius: 18px;
+}
+
+.view {
+    text-align: end;
+    padding: 20px;
+    margin-bottom: 52px;
+
+    background-color: #E8E9F3;
+    border-radius: 8px;
+    color: black;
+}
+
+.buttons {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+
+    width: 300px;
+    height: 250px;
+
+    justify-content: center;
+    margin: auto;
+}
+
+button, .view {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button.op {
+    background-color: #ECC30B;
+    color: #FFF;
+    align-items: center;
+
+    border: 0;
+    border-radius: 8px;
+
+    transition: 0.1s;
+}
+
+button.op:hover {
+    background-color: #d8b208;
+}
+
+
+button.numbers {
+    background-color: rgb(108, 108, 232);
+    color: #FFF;
+
+    align-items: center;
+
+    border: 0;
+    border-radius: 8px;
+
+    transition: 0.1s;
+}
+
+button.numbers:hover {
+    background-color: rgb(86, 86, 233);
+}
+
+
+button#igual {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+button#divise {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+
+
+
