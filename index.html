@@ -21,32 +21,30 @@
     <div id="content">
         <div class="view">0</div>
         <div class="buttons">
-            <button class="op" id="c">C</button>
-            <button class="op" id="ac">AC</button>
-            <button class="op" id="divise">/</button>
-            <button class="op" id="backspace">X</button>
+            <button class="clear" id="c" onclick="limpar()">C</button>
             
+            <button class="op" id="divise" onclick="pressOp(this)">/</button>
 
-            <button class="numbers">7</button>
-            <button class="numbers">8</button>
-            <button class="numbers">9</button>
-            <button class="op" id="mult">X</button>
-
-
-            <button class="numbers">4</button>
-            <button class="numbers">5</button>
-            <button class="numbers">6</button>
-            <button class="op" id="soma">+</button>
+            <button class="numbers" value="7" onclick="numberButton(this)">7</button>
+            <button class="numbers" value="8" onclick="numberButton(this)">8</button>
+            <button class="numbers" value="9" onclick="numberButton(this)">9</button>
+            <button class="op" id="mult" onclick="pressOp(this)">X</button>
 
 
-            <button class="numbers">1</button>
-            <button class="numbers">2</button>
-            <button class="numbers">3</button>
-            <button class="op" id="sub">-</button>
+            <button class="numbers" value="4" onclick="numberButton(this)">4</button>
+            <button class="numbers" value="5" onclick="numberButton(this)">5</button>
+            <button class="numbers" value="6" onclick="numberButton(this)">6</button>
+            <button class="op" id="soma" onclick="pressOp(this)">+</button>
 
-            <button class="numbers">0</button>
-            <button class="numbers">.</button>
-            <button class="op" id="igual">=</button>
+
+            <button class="numbers" value="1" onclick="numberButton(this)">1</button>
+            <button class="numbers" value="2" onclick="numberButton(this)">2</button>
+            <button class="numbers" value="3" onclick="numberButton(this)">3</button>
+            <button class="op" id="sub" onclick="pressOp(this)">-</button>
+
+            <button class="numbers" value="0" onclick="numberButton(this)">0</button>
+            <button class="numbers" value="." onclick="numberButton(this)">.</button>
+            <button class="igual" id="igual" onclick="result()">=</button>
 
         </div>
     </div>

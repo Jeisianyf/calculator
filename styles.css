@@ -46,7 +46,7 @@ button, .view {
     font-size: 18px;
 }
 
-button.op {
+button.op, button.igual, button.clear {
     background-color: #ECC30B;
     color: #FFF;
     align-items: center;
@@ -57,8 +57,8 @@ button.op {
     transition: 0.1s;
 }
 
-button.op:hover {
-    background-color: #d8b208;
+button.op:hover, button.igual:hover, button.clear:hover {
+    background-color: #fcd00e;
 }
 
 
@@ -84,9 +84,8 @@ button#igual {
     grid-column-end: 5;
 }
 
-button#divise {
-    display: grid;
-    grid-column-start: 3;
+button#c {
+    grid-column-start: 1;
     grid-column-end: 4;
 }
 
